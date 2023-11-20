@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Master</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Media/icon.png" type="image/x-icon"/>
 </head>
 
 <body>
     <div class="container">
         <div class="todo-app">
-            <h2>To- Do List <img src="Media/icon.png"></h2>
+            <h2>To- Do List </h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your task">
-                <button onclick="addTask()">Add</button>
+                <button class="addTaskBTN" onclick="addTask()">Add</button>
             </div>
             <ul id="list-container">
             </ul>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="script.js"></script>
 </body>
 
