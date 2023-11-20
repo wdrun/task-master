@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #598530, #0c8377);
+    background: linear-gradient(135deg, #f3f3f2, #cacaca);
     padding: 10px;
 
 }
@@ -23,7 +23,7 @@
 }
 
 .todo-app h2 {
-    color: #002765;
+    color: #555050;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -52,19 +52,19 @@ input {
     padding: 10px;
 }
 
-button {
+.addTaskBTN {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #5e5b5b;
     color: #FFF;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
 }
 
-button:hover {
-    background: #61d12d;
+.addTaskBTN:hover {
+    background: #3d3d3c;
 }
 
 ul li {
@@ -74,6 +74,8 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    color: rgb(131, 125, 125);
+    border-radius: 4%;
 }
 
 ul li::before {
@@ -111,6 +113,6 @@ ul li span {
 }
 
 ul li span:hover {
-    background: #edeef0;
+    background: #ccc8c8;
     border-radius: 50%;
 }
